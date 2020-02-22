@@ -1,0 +1,29 @@
+#include <iostream>
+#include <conio.h>
+using namespace std;
+
+struct persona {
+	char nom[10];
+	int edad;
+	char sexo;
+	float sueldo;
+	
+};
+   void entrada (persona a);
+   
+   main (){
+   	 persona a;
+   	 entrada(a);
+   	
+   }
+   void entrada(persona a){
+   	cout<<"Nombre:";
+   	cin>>a.nom;
+   	cout<<"Edad:";
+   	cin>>a.edad;
+   	cout<<"Sexo";
+   	cin>>a.sexo;
+   	cout<<"Sueldo:";
+   	cin>>a.sueldo;
+   	
+   }
